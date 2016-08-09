@@ -8,6 +8,6 @@ public class Kitty extends Cat{
 	static String className = Kitty.class.getName();
 	static Logger logger = Logger.getLogger(className);
 	public void mew(){
-		logger.fine("mew mew mew");
+		logger.info("mew mew mew");
 	}
 }
